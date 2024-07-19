@@ -14,10 +14,10 @@ I opened another terminal. I will try running ros master again to see what happe
 
 Notice that I get an error when I run ros master again ، The reason for this error is that we already have a ros master that works well, so if you want to start a ros master program, you can only get one.
 
-# manipulate with some packages
+## manipulate with some packages
 
 When we install ros, we already have nodes that you can start, you have typical nodes for educational nodes and several nodes for different functions.
-### 1-so to start a node we will use the command which looks like a program that will print "hello World" into the terminal with a timestamp
+#### 1-so to start a node we will use the command which looks like a program that will print "hello World" into the terminal with a timestamp
 
 ```
 rosrun rospy_tutorials talker
@@ -27,7 +27,7 @@ rosrun rospy_tutorials talker
 if you want to stop the node you can press (ctrl + C)
 But so that you do not see an error or deficiency, do not stop it
 
-### 2-Open another terminal and type this command which allows you to get a graphical view of the actual ROS (nodes, topics and connections running on your computer)
+#### 2-Open another terminal and type this command which allows you to get a graphical view of the actual ROS (nodes, topics and connections running on your computer)
 
 ```
 rqt_graph
@@ -36,14 +36,14 @@ rqt_graph
 
 you can see that here we have ONE node named (talker)
 
-### 3- this is another program that is going to print something in the terminal, and (heard) hello world with the timestamp. actually this data coming from the (talker) node
+#### 3- this is another program that is going to print something in the terminal, and (heard) hello world with the timestamp. actually this data coming from the (talker) node
 
 <img width="960" alt="e" src="https://github.com/user-attachments/assets/3508a8a9-7fee-4a1e-bcfe-4c33e607a160">
 
 You can see that here we have a token node. Here we have a (listener) node and we also have a (talker) node. The talker node sends some things to the listener node.
 
 
-# Turtlesim
+## Turtlesim
 1- This command is going to show a graphical window with a turtle
 ```
 rosrun turtlesim turtlesim_node
