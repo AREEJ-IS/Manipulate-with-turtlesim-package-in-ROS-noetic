@@ -14,7 +14,7 @@ I opened another terminal. I will try running ros master again to see what happe
 
 Notice that I get an error when I run ros master again ، The reason for this error is that we already have a ros master that works well, so if you want to start a ros master program, you can only get one.
 
-#
+# manipulate with some packages
 
 When we install ros, we already have nodes that you can start, you have typical nodes for educational nodes and several nodes for different functions.
 ### 1-so to start a node we will use the command which looks like a program that will print "hello World" into the terminal with a timestamp
@@ -43,7 +43,7 @@ you can see that here we have ONE node named (talker)
 You can see that here we have a token node. Here we have a (listener) node and we also have a (talker) node. The talker node sends some things to the listener node.
 
 
-#
+# Turtlesim
 1- This command is going to show a graphical window with a turtle
 ```
 rosrun turtlesim turtlesim_node
